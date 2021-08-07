@@ -1,1 +1,142 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Karla', sans-serif;
+  height: 100vh;
+  background-color: #98a6bd;
+  font-size: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+  line-height: 1.6;
+  color: #e5eff5;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  background-color: #c0df34;
+  padding: 8px;
+  border-radius: 5px;
+  -webkit-box-shadow: 5px #98a6bd;
+          box-shadow: 5px #98a6bd;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+h3 {
+  color: #2ab2af;
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+
+.container {
+  width: 50%;
+}
+
+.content {
+  background-color: #fff;
+  padding: 30px;
+  color: #98a6bd;
+}
+
+.short-disc {
+  color: #c0df34;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.card {
+  padding: 30px;
+}
+
+.card1 {
+  background-color: #27a5a3;
+  width: 50%;
+}
+
+.card1 > p {
+  margin: 10px 0px 30px 0px;
+}
+
+.card2 {
+  background-color: #2ab2af;
+  width: 50%;
+}
+
+.title {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.pricing {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 1;
+}
+
+.pricing > p {
+  margin-left: 15px;
+  font-weight: lighter;
+  font-size: 14px;
+}
+
+.card2 > p {
+  font-size: 13px;
+}
+
+.card2 > title {
+  margin-bottom: 30px;
+}
+
+@media (max-width: 650px) {
+  .cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .card {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */

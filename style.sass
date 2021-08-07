@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap')
+
+$cyan: hsl(179, 62%, 43%)
+$yellow: hsl(71, 73%, 54%)    
+$gray: hsl(204, 43%, 93%)
+$grayish-blue: hsl(218, 22%, 67%)
+
+*
+    box-sizing: border-box
+    padding: 0
+    margin: 0
+
+body
+    font-family: 'Karla', sans-serif
+    height: 100vh
+    background-color: $grayish-blue
+    font-size: 14px
+    display: flex
+    justify-content: center
+    align-items: center
+    overflow: hidden
+    line-height: 1.6
+    color: $gray
+
+a
+    text-decoration: none
+    color: white
+    background-color: $yellow
+    padding: 8px
+    border-radius: 5px
+    box-shadow: 5px $grayish-blue
+    display: flex
+    width: 100%
+    justify-content: center
+
+h3
+    color: $cyan
+    font-size: 1.5em
+    margin-bottom: 15px
+
+.container
+    width: 50%
+
+.content
+    background-color: #fff
+    padding: 30px
+    color: $grayish-blue
+
+.short-disc
+    color: $yellow   
+    margin-bottom: 5px
+    font-weight: bold 
+
+.cards
+    display: flex
+    flex-direction: row
+
+.card
+    padding: 30px    
+
+.card1
+    background-color: hsl(179, 62%, 40%)  
+    width: 50%
+
+.card1 > p
+    margin: 10px 0px 30px 0px
+    
+.card2
+    background-color: $cyan
+    width: 50%
+
+.title
+    font-size: 18px
+    margin-bottom: 20px
+
+.pricing
+    display: flex
+    flex-direction: row
+    align-items: center
+    line-height: 1
+
+.pricing > p 
+    margin-left: 15px
+    font-weight: lighter
+    font-size: 14px      
+
+.card2 > p 
+    font-size: 13px    
+
+.card2 > title 
+    margin-bottom: 30px    
+    
+@media (max-width: 650px)
+
+    .cards
+        display: flex
+        flex-direction: column    
+
+    .card
+        width: 100%
